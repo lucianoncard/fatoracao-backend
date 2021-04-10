@@ -15,4 +15,4 @@ require('./app/controllers/index')(app);
 
 //app.use('/files', express.static(path.resolve(__dirname, 'uploads')));
 
-app.listen(process.env.PORT || 'https://fatoracao-backend.herokuapp.com/');
+app.listen(process.env.PORT || 3333);
