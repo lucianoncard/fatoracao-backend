@@ -14,8 +14,8 @@ const storageTypes = {
   }),
   s3: multerS3({
     s3: new aws.S3({
-      accessKeyId: 'AKIAYHDG6KWDSURRQTFJ',
-      secretAccessKey: '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'
+      accessKeyId: 'AKIAYHDG6KWDYSE4OWWY',
+      secretAccessKey: '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'
     }),
     bucket: 'fatoracao',
     contentType: multerS3.AUTO_CONTENT_TYPE,
